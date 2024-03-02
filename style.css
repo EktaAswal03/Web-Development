@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url('back.jpg');
+}
+
+#board{
+   
+    height: 80%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.796);
+    border-radius: 10%;
+    position: absolute;
+    top:10%;
+    left:10%;
+    
+}
+#head {
+    display: flex;
+    
+    
+}
+
+#head h1{
+    padding:2vw;
+    
+}
+
+#icon{
+    
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    background-image: url('icon.png');
+    left:23%;
+
+}
+#addtask{
+    display: flex;
+    
+    
+}
+
+#text{
+    margin-left: 2vw;
+    margin-top: 3vw;
+    display: flex;
+    border:  3px solid black;
+    border-radius: 5px;
+    
+}
+#click{
+    padding-top: 3vw;
+    padding-left: 3vw;
+    
+}
+
+#list{
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
